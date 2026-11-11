@@ -1,0 +1,18 @@
+{
+  "name": "FraudShield — Digital Safety",
+  "short_name": "FraudShield",
+  "description": "A simple digital safety companion for checking suspicious messages and links.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#183b35",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

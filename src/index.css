@@ -1,0 +1,72 @@
+:root {
+  --forest-900: #183b35;
+  --forest-800: #214d48;
+  --sage-100: #dce8e1;
+  --sage-200: #cfe2d9;
+  --amber-500: #c18a38;
+  --danger-600: #c84b4b;
+  --neutral-500: #6b7280;
+  --off-white: #f7f8f5;
+  --white: #ffffff;
+  --shadow-soft: 0 18px 38px rgba(24, 59, 53, 0.06);
+  --radius-xl: 28px;
+  --radius-lg: 20px;
+
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--forest-900);
+  background: var(--off-white);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(220, 232, 225, 0.5), transparent 35%),
+    var(--off-white);
+  color: var(--forest-900);
+}
+
+img,
+svg {
+  display: block;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  font-weight: 700;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
